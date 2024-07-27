@@ -19,6 +19,7 @@ The proposed model breaks a Raman spectrum into overlapping segments and process
 
 ```
 conda create -n RMNT python=3.8
+conda activate RMNT
 pip install numpy==1.19.2
 pip install tensorflow-gpu==2.5.0  
 conda install -c conda-forge cudatoolkit=11.2  
