@@ -12,7 +12,19 @@ Raman spectroscopy provides a vibrational profile of the molecules and thus can 
 
 The proposed model breaks a Raman spectrum into overlapping segments and processes them using shifted MLP layers. In this way the weights are not shared and we only need to process a small portion at a time.
 
-![RamanNet](https://raw.githubusercontent.com/nibtehaz/RamanNet/main/images/RamanNet.png)
+![RamanNet](https://raw.githubusercontent.com/nibtehaz/RamanNet/main/images/RamanNet.png)  
+
+
+## Requirements
+
+```
+conda create -n RMNT python=3.8
+pip install numpy==1.19.2
+pip install tensorflow-gpu==2.5.0  
+conda install -c conda-forge cudatoolkit=11.2  
+conda install -c conda-forge cudnn=8.1.0
+
+```
 
 
 ## Codes
