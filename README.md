@@ -24,7 +24,6 @@ pip install numpy==1.19.2
 pip install tensorflow-gpu==2.5.0  
 conda install -c conda-forge cudatoolkit=11.2  
 conda install -c conda-forge cudnn=8.1.0
-
 ```
 
 
