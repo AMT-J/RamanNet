@@ -22,7 +22,10 @@ conda create -n RMNT python=3.8
 conda activate RMNT
 pip install numpy==1.19.2
 pip install tensorflow-gpu==2.5.0  
-conda install -c conda-forge cudatoolkit=11.2  
+pip install matplotlib==3.3.4  
+pip install tensorflow-addons==0.13.0
+pip install typing-extensions==4.12.2
+conda install -c conda-forge cudtoolkit=11.2  
 conda install -c conda-forge cudnn=8.1.0
 ```
 
